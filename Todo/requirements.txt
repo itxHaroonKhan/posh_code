@@ -1,0 +1,30 @@
+# FastAPI and ASGI server
+fastapi
+uvicorn[standard]
+
+# Database ORM
+sqlmodel
+psycopg2-binary
+
+# Authentication and security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# Environment and configuration
+pydantic-settings
+
+# Email validation
+email-validator
+
+# Database migrations
+alembic
+
+# Testing
+pytest
+pytest-asyncio
+httpx
+
+# Development
+black
+flake8
