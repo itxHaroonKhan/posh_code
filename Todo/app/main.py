@@ -1,6 +1,9 @@
 """
 FastAPI application entry point with CORS middleware and router registration.
 """
+import utils.http_session
+import utils.transport
+import utils.session
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .config import settings
